@@ -102,7 +102,7 @@ function PriorityQueue() {
         return queue.push()
     }
   
-    return { enqueue, dequeub, display };
+    return { enqueue, dequeub, print: display };
   }
   
   const pq = PriorityQueue();
@@ -163,7 +163,7 @@ const heroesHelper = (heroes) => {
 
 const heroes = heroesHelper(heroesTest)
 console.log(heroes.getHeroesByMainAttribute('agility').getHeroesByAttackType('ranged').value) 
-[
-    { name: 'Sniper', mainAttribute: 'agility', attackType: 'ranged' },
-    { name: 'SF', mainAttribute: 'agility', attackType: 'ranged' },
- ]
+// result: [
+//     { name: 'Sniper', mainAttribute: 'agility', attackType: 'ranged' },
+//     { name: 'SF', mainAttribute: 'agility', attackType: 'ranged' },
+//  ]
