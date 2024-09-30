@@ -38,13 +38,13 @@ const titles =
 const newBooks =
 
   // книга у которой автор "Harper Lee"
-const harperLeeBook = 
+const harperLeeBook =
 
 // все книги с жанром fiction
 const fictionBooks =
 
   // есть ли книга с жанром romance
-const someAreRomance = 
+const someAreRomance =
 
 // 3. каждому юзеру нужно добавить ключ transactions, который будет содержать массив транзакций, которые производил юзер, отсортированные по возрастанию
 
@@ -123,3 +123,6 @@ console.log(usersWithTransactions);
 const doubleArr = map([1, 2, 3], (el) => el * 2);
 console.log(doubleArr);
 // // [2, 4, 6]
+
+
+// test commit
